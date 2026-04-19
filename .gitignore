@@ -1,0 +1,18 @@
+# === Auditor Build Exclusions ===
+bin/
+obj/
+x64/
+Release/
+Debug/
+
+# === Research & Telemetry Logs ===
+output/telemetry/*.log
+logs/*.txt
+*.tmp
+
+# === IDE & Symbols ===
+.vs/
+.vscode/
+*.sln
+*.pdb
+*.ilk
